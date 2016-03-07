@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Beranda">
+        <menu>
+            <item
+                android:id="@+id/Ihome"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Tentang Gorontalo" />
+            <item
+                android:id="@+id/Kebudayaan"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Kebudayaan" />
+            <item
+                android:id="@+id/Pariwisata"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Pariwisata" />
+            <item
+                android:id="@+id/Lagu"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Lagu Daerah" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Profil Gorontalo">
+        <menu>
+            <item
+                android:id="@+id/sejarah"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Sejarah Gorontalo" />
+            <item
+                android:id="@+id/Visi"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Visi Misi" />
+            <item
+                android:id="@+id/Pemerintahan"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Pemerintahan" />
+            <item
+                android:id="@+id/Ekonomi"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Ekonomi" />
+            <item
+                android:id="@+id/Lambang"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Lambang Daerah" />
+            <item
+                android:id="@+id/Geografis"
+                android:checked="false"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Geografis &amp; Iklim" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/navigation_subheader1"
+        android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/Tentang"
+                android:checked="false"
+                android:title="Tentang" />
+            <item
+                android:id="@+id/Sumber"
+                android:checked="false"
+                android:title="Sumber" />
+            <item
+                android:id="@+id/Keluar"
+                android:checked="false"
+                android:title="Keluar" />
+        </menu>
+    </item>
+</menu>

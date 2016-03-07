@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_frag_background">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imgPlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul :"
+            android:id="@+id/txtJudulL"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imgPlay"
+            android:layout_toEndOf="@+id/imgPlay"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyanyi :"
+            android:id="@+id/txtPenyanyiL"
+            android:layout_below="@+id/txtJudulL"
+            android:layout_alignLeft="@+id/txtJudulL"
+            android:layout_alignStart="@+id/txtJudulL"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul"
+            android:id="@+id/txtJudul"
+            android:layout_alignTop="@+id/txtJudulL"
+            android:layout_toRightOf="@+id/txtJudulL"
+            android:layout_toEndOf="@+id/txtJudulL"
+            android:textColor="#fff"
+            android:textSize="17dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penyanyi"
+            android:id="@+id/txtPenyanyi"
+            android:layout_alignTop="@+id/txtPenyanyiL"
+            android:layout_toRightOf="@+id/txtPenyanyiL"
+            android:layout_toEndOf="@+id/txtPenyanyiL"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
